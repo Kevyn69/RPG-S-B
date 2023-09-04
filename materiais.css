@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 119em;
+    height: 45em;
+    background-color: rgb(255, 255, 255);
+}
+div{
+    background-color: rgb(151, 0, 211);
+    width: 50em;
+    height: 24em;
+    border-radius: 4%;
+    position: relative;
+}
+#v1{
+    color: black;
+    font-size: 6em;
+    text-align: center;
+    position: absolute;
+    top: 31%;
+    left: 27%;
+}
+#v2{
+    color: black;
+    font-size: 6em;
+    text-align: center;
+    position: absolute;
+    top: 31%;
+    left: 37.5%;
+}
